@@ -1,0 +1,150 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+.f-small {
+  font-size: 0.7em;
+}
+
+.f-med {
+  font-size: 0.9em;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+.space-btw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.width-1 {
+  width: 60%;
+}
+
+.width-2 {
+  width: 25%;
+}
+
+.width-3 {
+  width: 40%;
+}
+
+.width-4 {
+  width: 10%;
+}
+
+.dot {
+  margin-top: 0.4em;
+  width: 0.3em;
+  height: 0.3em;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.indent {
+  text-indent: 1em;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.container .first {
+  margin-top: -1em;
+  border-bottom: 0.7em solid black;
+}
+
+.container .line1 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .line2 {
+  border-bottom: 1px solid black;
+}
+
+.container .line4 {
+  border-top: 0.2em solid #888787;
+  width: 95%;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.container .line5 {
+  text-align: end;
+  border-bottom: 0.2em solid black;
+  border-top: 0.5em solid black;
+}
+
+.container .line6 {
+  width: 95%;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  border-top: 1PX solid black;
+}
+
+.container .line7 {
+  border-top: 3px solid black;
+}
+
+.container .line8 {
+  border-top: 1px solid black;
+}
+
+.container .line9 {
+  border-top: 1PX solid #888787;
+  width: 95%;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.container .line10 {
+  border-top: 0.7em solid black;
+}
+
+.container .line11 {
+  border-top: 0.2em solid #888787;
+}
+
+.container .line12 {
+  border-top: 0.2em solid #c6c2c2;
+}
+
+.container .line13 {
+  border-top: 0.2em solid #818181;
+}
+
+.container .line14 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+}
+/*# sourceMappingURL=styles.css.map */
