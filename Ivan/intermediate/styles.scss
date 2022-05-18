@@ -1,0 +1,52 @@
+
+  .container{
+    width:100% ;
+    height: 45em;
+    display: grid;
+    grid-template-rows: 10% 70% 20%;
+    nav{
+      margin: 0px;
+      background-color: rgb(64, 110, 244);
+      display: flex;
+      ul{
+        display: flex;
+        gap: 2em;
+        align-items: center;
+        li{
+          list-style: none;
+          a{
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+    main{
+      display: flex;
+      .right{
+        display: flex;
+        font-size: 2em;
+        justify-content: space-between;
+        color: red;
+        width: 50%;
+        background-image: url(./pics/filip2.jpg);
+        background-size: cover;
+        padding: 1em;
+      }
+      .left{
+        width: 50%;
+        background-image: url(./pics/macedonia.jpg);
+        background-size: cover;
+      }
+    }
+    footer{
+      background-color: rgb(135, 146, 150);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      .in-footer{
+        margin-top: 1em;
+      }
+    }
+  }

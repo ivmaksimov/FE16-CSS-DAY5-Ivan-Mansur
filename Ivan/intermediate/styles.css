@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  height: 45em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10% 70% 20%;
+      grid-template-rows: 10% 70% 20%;
+}
+
+.container nav {
+  margin: 0px;
+  background-color: #406ef4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container nav ul li {
+  list-style: none;
+}
+
+.container nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container main .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: red;
+  width: 50%;
+  background-image: url(./pics/filip2.jpg);
+  background-size: cover;
+  padding: 1em;
+}
+
+.container main .left {
+  width: 50%;
+  background-image: url(./pics/macedonia.jpg);
+  background-size: cover;
+}
+
+.container footer {
+  background-color: #879296;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2em;
+}
+
+.container footer .in-footer {
+  margin-top: 1em;
+}
+/*# sourceMappingURL=styles.css.map */
